@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #1a191f;
+}
+.header {
+  background-color: #03131f;
+  padding: 20px;
+}
+.header__form {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.search {
+  width: 220px;
+  height: 40px;
+  padding: 8px;
+  border: 2px solid #1a191f;
+  border-radius: 10px;
+  outline: none;
+}
+.movie {
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.movie__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 550px;
+  border-radius: 10px;
+  color: white;
+}
+.movie__card:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+.movie__card img {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+}
+.movie__card-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.block_right {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.movie__card-info img {
+  width: 30px;
+  height: 30px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+.title__block {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav_button {
+  width: 220px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.yers {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 300;
+  color: whitesmoke;
+}
+.reiting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  width: 32px;
+  height: 32px;
+  background-color: green;
+  border-radius: 50%;
+}
+@media (max-width: 1160px) {
+  .nav_button {
+    width: 200px;
+    font-size: 13px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+}
+@media (max-width: 1140px) {
+  .nav_button {
+    width: 100px;
+    font-size: 12px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+}
+@media (max-width: 560px) {
+  .nav_button {
+    width: 80px;
+    margin: 5px;
+    font-size: 10px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+}
