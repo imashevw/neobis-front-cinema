@@ -91,6 +91,7 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  color: black;
   background-color: white;
   text-transform: uppercase;
   font-weight: 400;
